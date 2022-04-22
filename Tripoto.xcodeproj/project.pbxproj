@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E945C18256B07B0007B184A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E945C15256B07B0007B184A /* Assets.xcassets */; };
+		5E945C19256B07B0007B184A /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E945C16256B07B0007B184A /* appstore.png */; };
+		5EED347D256B014B00195DE2 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5EED347C256B014B00195DE2 /* SDWebImage */; };
+		AD2BFAAC2489258600EE3F1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2BFAAB2489258600EE3F1B /* AppDelegate.swift */; };
+		AD2BFAAE2489258600EE3F1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2BFAAD2489258600EE3F1B /* SceneDelegate.swift */; };
+		AD2BFAB02489258600EE3F1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2BFAAF2489258600EE3F1B /* ContentView.swift */; };
+		AD2BFAB52489258F00EE3F1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD2BFAB42489258F00EE3F1B /* Preview Assets.xcassets */; };
+		AD2BFAB82489258F00EE3F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD2BFAB62489258F00EE3F1B /* LaunchScreen.storyboard */; };
+		AD2BFAC32489259000EE3F1B /* UnspalshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2BFAC22489259000EE3F1B /* UnspalshTests.swift */; };
+		AD2BFACE2489259000EE3F1B /* UnspalshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2BFACD2489259000EE3F1B /* UnspalshUITests.swift */; };
+		AD2BFADD248925C600EE3F1B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AD2BFADC248925C600EE3F1B /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD2BFABF2489259000EE3F1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD2BFAA02489258600EE3F1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD2BFAA72489258600EE3F1B;
+			remoteInfo = Unspalsh;
+		};
+		AD2BFACA2489259000EE3F1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD2BFAA02489258600EE3F1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD2BFAA72489258600EE3F1B;
+			remoteInfo = Unspalsh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E945C15256B07B0007B184A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../AppIcons/Assets.xcassets; sourceTree = "<group>"; };
+		5E945C16256B07B0007B184A /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
+		AD2BFAA82489258600EE3F1B /* Tripoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tripoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2BFAAB2489258600EE3F1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD2BFAAD2489258600EE3F1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD2BFAAF2489258600EE3F1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD2BFAB42489258F00EE3F1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD2BFAB72489258F00EE3F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD2BFAB92489258F00EE3F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD2BFABE2489259000EE3F1B /* TripotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2BFAC22489259000EE3F1B /* UnspalshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnspalshTests.swift; sourceTree = "<group>"; };
+		AD2BFAC42489259000EE3F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD2BFAC92489259000EE3F1B /* TripotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD2BFACD2489259000EE3F1B /* UnspalshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnspalshUITests.swift; sourceTree = "<group>"; };
+		AD2BFACF2489259000EE3F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD2BFAA52489258600EE3F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EED347D256B014B00195DE2 /* SDWebImage in Frameworks */,
+				AD2BFADD248925C600EE3F1B /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2BFABB2489259000EE3F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2BFAC62489259000EE3F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD2BFA9F2489258600EE3F1B = {
+			isa = PBXGroup;
+			children = (
+				AD2BFAAA2489258600EE3F1B /* Tripoto */,
+				AD2BFAC12489259000EE3F1B /* TriopotoTests */,
+				AD2BFACC2489259000EE3F1B /* TripotoUITests */,
+				AD2BFAA92489258600EE3F1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD2BFAA92489258600EE3F1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD2BFAA82489258600EE3F1B /* Tripoto.app */,
+				AD2BFABE2489259000EE3F1B /* TripotoTests.xctest */,
+				AD2BFAC92489259000EE3F1B /* TripotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD2BFAAA2489258600EE3F1B /* Tripoto */ = {
+			isa = PBXGroup;
+			children = (
+				AD2BFAAB2489258600EE3F1B /* AppDelegate.swift */,
+				AD2BFAAD2489258600EE3F1B /* SceneDelegate.swift */,
+				AD2BFAAF2489258600EE3F1B /* ContentView.swift */,
+				5E945C16256B07B0007B184A /* appstore.png */,
+				5E945C15256B07B0007B184A /* Assets.xcassets */,
+				AD2BFAB62489258F00EE3F1B /* LaunchScreen.storyboard */,
+				AD2BFAB92489258F00EE3F1B /* Info.plist */,
+				AD2BFAB32489258F00EE3F1B /* Preview Content */,
+			);
+			path = Tripoto;
+			sourceTree = "<group>";
+		};
+		AD2BFAB32489258F00EE3F1B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD2BFAB42489258F00EE3F1B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD2BFAC12489259000EE3F1B /* TriopotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD2BFAC22489259000EE3F1B /* UnspalshTests.swift */,
+				AD2BFAC42489259000EE3F1B /* Info.plist */,
+			);
+			path = TriopotoTests;
+			sourceTree = "<group>";
+		};
+		AD2BFACC2489259000EE3F1B /* TripotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD2BFACD2489259000EE3F1B /* UnspalshUITests.swift */,
+				AD2BFACF2489259000EE3F1B /* Info.plist */,
+			);
+			path = TripotoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD2BFAA72489258600EE3F1B /* Tripoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD2BFAD22489259000EE3F1B /* Build configuration list for PBXNativeTarget "Tripoto" */;
+			buildPhases = (
+				AD2BFAA42489258600EE3F1B /* Sources */,
+				AD2BFAA52489258600EE3F1B /* Frameworks */,
+				AD2BFAA62489258600EE3F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tripoto;
+			packageProductDependencies = (
+				AD2BFADC248925C600EE3F1B /* SDWebImageSwiftUI */,
+				5EED347C256B014B00195DE2 /* SDWebImage */,
+			);
+			productName = Unspalsh;
+			productReference = AD2BFAA82489258600EE3F1B /* Tripoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD2BFABD2489259000EE3F1B /* TripotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD2BFAD52489259000EE3F1B /* Build configuration list for PBXNativeTarget "TripotoTests" */;
+			buildPhases = (
+				AD2BFABA2489259000EE3F1B /* Sources */,
+				AD2BFABB2489259000EE3F1B /* Frameworks */,
+				AD2BFABC2489259000EE3F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD2BFAC02489259000EE3F1B /* PBXTargetDependency */,
+			);
+			name = TripotoTests;
+			productName = UnspalshTests;
+			productReference = AD2BFABE2489259000EE3F1B /* TripotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD2BFAC82489259000EE3F1B /* TripotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD2BFAD82489259000EE3F1B /* Build configuration list for PBXNativeTarget "TripotoUITests" */;
+			buildPhases = (
+				AD2BFAC52489259000EE3F1B /* Sources */,
+				AD2BFAC62489259000EE3F1B /* Frameworks */,
+				AD2BFAC72489259000EE3F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD2BFACB2489259000EE3F1B /* PBXTargetDependency */,
+			);
+			name = TripotoUITests;
+			productName = UnspalshUITests;
+			productReference = AD2BFAC92489259000EE3F1B /* TripotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD2BFAA02489258600EE3F1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = tripoto;
+				TargetAttributes = {
+					AD2BFAA72489258600EE3F1B = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					AD2BFABD2489259000EE3F1B = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = AD2BFAA72489258600EE3F1B;
+					};
+					AD2BFAC82489259000EE3F1B = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = AD2BFAA72489258600EE3F1B;
+					};
+				};
+			};
+			buildConfigurationList = AD2BFAA32489258600EE3F1B /* Build configuration list for PBXProject "Tripoto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD2BFA9F2489258600EE3F1B;
+			packageReferences = (
+				AD2BFADB248925C500EE3F1B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				5EED347B256B014B00195DE2 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = AD2BFAA92489258600EE3F1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD2BFAA72489258600EE3F1B /* Tripoto */,
+				AD2BFABD2489259000EE3F1B /* TripotoTests */,
+				AD2BFAC82489259000EE3F1B /* TripotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD2BFAA62489258600EE3F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E945C19256B07B0007B184A /* appstore.png in Resources */,
+				AD2BFAB82489258F00EE3F1B /* LaunchScreen.storyboard in Resources */,
+				AD2BFAB52489258F00EE3F1B /* Preview Assets.xcassets in Resources */,
+				5E945C18256B07B0007B184A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2BFABC2489259000EE3F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2BFAC72489259000EE3F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD2BFAA42489258600EE3F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2BFAAC2489258600EE3F1B /* AppDelegate.swift in Sources */,
+				AD2BFAAE2489258600EE3F1B /* SceneDelegate.swift in Sources */,
+				AD2BFAB02489258600EE3F1B /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2BFABA2489259000EE3F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2BFAC32489259000EE3F1B /* UnspalshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2BFAC52489259000EE3F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2BFACE2489259000EE3F1B /* UnspalshUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD2BFAC02489259000EE3F1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD2BFAA72489258600EE3F1B /* Tripoto */;
+			targetProxy = AD2BFABF2489259000EE3F1B /* PBXContainerItemProxy */;
+		};
+		AD2BFACB2489259000EE3F1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD2BFAA72489258600EE3F1B /* Tripoto */;
+			targetProxy = AD2BFACA2489259000EE3F1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD2BFAB62489258F00EE3F1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD2BFAB72489258F00EE3F1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD2BFAD02489259000EE3F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD2BFAD12489259000EE3F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD2BFAD32489259000EE3F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tripoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sarthak.mittal.tripoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD2BFAD42489259000EE3F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Tripoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sarthak.mittal.tripoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD2BFAD62489259000EE3F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3W3SL2TA2;
+				INFOPLIST_FILE = UnspalshTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kavsoft.UnspalshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tripoto.app/Tripoto";
+			};
+			name = Debug;
+		};
+		AD2BFAD72489259000EE3F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3W3SL2TA2;
+				INFOPLIST_FILE = UnspalshTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kavsoft.UnspalshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tripoto.app/Tripoto";
+			};
+			name = Release;
+		};
+		AD2BFAD92489259000EE3F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3W3SL2TA2;
+				INFOPLIST_FILE = UnspalshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kavsoft.UnspalshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Unspalsh;
+			};
+			name = Debug;
+		};
+		AD2BFADA2489259000EE3F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3W3SL2TA2;
+				INFOPLIST_FILE = UnspalshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kavsoft.UnspalshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Unspalsh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD2BFAA32489258600EE3F1B /* Build configuration list for PBXProject "Tripoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD2BFAD02489259000EE3F1B /* Debug */,
+				AD2BFAD12489259000EE3F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD2BFAD22489259000EE3F1B /* Build configuration list for PBXNativeTarget "Tripoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD2BFAD32489259000EE3F1B /* Debug */,
+				AD2BFAD42489259000EE3F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD2BFAD52489259000EE3F1B /* Build configuration list for PBXNativeTarget "TripotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD2BFAD62489259000EE3F1B /* Debug */,
+				AD2BFAD72489259000EE3F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD2BFAD82489259000EE3F1B /* Build configuration list for PBXNativeTarget "TripotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD2BFAD92489259000EE3F1B /* Debug */,
+				AD2BFADA2489259000EE3F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5EED347B256B014B00195DE2 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.0;
+			};
+		};
+		AD2BFADB248925C500EE3F1B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5EED347C256B014B00195DE2 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EED347B256B014B00195DE2 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		AD2BFADC248925C600EE3F1B /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD2BFADB248925C500EE3F1B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD2BFAA02489258600EE3F1B /* Project object */;
+}
